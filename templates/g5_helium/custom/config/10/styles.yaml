@@ -1,0 +1,4 @@
+preset: preset1
+navigation:
+  background: '#ccc2c2'
+  text-color: '#092f74'

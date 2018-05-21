@@ -1,0 +1,249 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/home.png'
+  name: home
+  timestamp: 1524577640
+layout:
+  header: {  }
+  navigation: {  }
+  /project/:
+    -
+      - 'position-position-6862 60'
+      - 'position-position-6469 40'
+  /results/:
+    -
+      - 'position-position-3737 35'
+      - 'spacer-8142 65'
+  /topline/:
+    -
+      - logo-1984
+  /partners/:
+    -
+      - position-position-8315
+    -
+      - 'position-position-6790 50'
+      - 'position-position-3393 50'
+  /bottomline/:
+    -
+      - logo-6594
+  /synergies/:
+    -
+      - 'position-position-5746 40'
+      - 'position-position-8145 60'
+  /feature/:
+    -
+      - position-position-1544
+  /main/:
+    -
+      - position-position-5613
+    -
+      - system-messages-2330
+    -
+      - system-content-3721
+    -
+      - position-position-1226
+  /subfeature/: {  }
+  /footer/:
+    -
+      - position-position-6715
+    -
+      - 'copyright-7238 40'
+      - 'social-9004 30'
+      - 'totop-9521 30'
+    -
+      - logo-4943
+  offcanvas: {  }
+structure:
+  header:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+  navigation:
+    type: section
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - children
+  project:
+    type: section
+    attributes:
+      boxed: ''
+  results:
+    type: section
+    attributes:
+      boxed: ''
+  topline:
+    type: section
+    attributes:
+      boxed: '2'
+      class: ''
+  partners:
+    type: section
+    attributes:
+      boxed: ''
+  bottomline:
+    type: section
+    attributes:
+      boxed: '2'
+      class: ''
+  synergies:
+    type: section
+    attributes:
+      boxed: ''
+  feature:
+    type: section
+    attributes:
+      boxed: '2'
+      class: ''
+  main:
+    attributes:
+      boxed: ''
+      class: ''
+  subfeature:
+    type: section
+    attributes:
+      class: flush
+      boxed: ''
+  footer:
+    attributes:
+      boxed: ''
+      class: ''
+  offcanvas:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+content:
+  position-position-6862:
+    title: 'Module Position'
+    attributes:
+      key: project-a
+    block:
+      class: project-slider
+  position-position-6469:
+    title: 'Module Position'
+    attributes:
+      key: project-b
+    block:
+      class: project-text
+  position-position-3737:
+    title: 'Module Position'
+    attributes:
+      key: results-a
+    block:
+      class: results-text
+  spacer-8142:
+    block:
+      class: results-image
+  logo-1984:
+    title: 'Logo / Image'
+    attributes:
+      image: 'gantry-media://partners/yellow-line.png'
+      link: '0'
+      class: ''
+  position-position-8315:
+    title: 'Module Position'
+    attributes:
+      key: partners-top
+  position-position-6790:
+    title: 'Module Position'
+    attributes:
+      key: partners-a
+  position-position-3393:
+    title: 'Module Position'
+    attributes:
+      key: partners-b
+  logo-6594:
+    title: 'Logo / Image'
+    attributes:
+      image: 'gantry-media://partners/yellow-line.png'
+      link: '0'
+      class: ''
+  position-position-5746:
+    title: 'Module Position'
+    attributes:
+      key: syn-a
+    block:
+      class: syn-text
+  position-position-8145:
+    title: 'Module Position'
+    attributes:
+      key: syn-b
+    block:
+      class: syn-gallery
+  position-position-1544:
+    title: 'Module Position'
+    attributes:
+      key: parallax-full
+  position-position-5613:
+    title: Breadcrumbs
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+      particle: position-breadcrumbs
+  system-messages-2330:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+      particle: system-messages-2564
+  system-content-3721:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+      particle: system-content-3237
+  position-position-1226:
+    title: 'Module Position'
+    attributes:
+      key: news-feed
+    block:
+      id: g-news
+  position-position-6715:
+    title: Footer
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+      particle: position-footer
+  copyright-7238:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+      particle: copyright-3091
+  social-9004:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+      particle: social-4747
+  totop-9521:
+    title: 'To Top'
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+      particle: totop-3223
+  logo-4943:
+    title: 'Logo / Image'
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+      particle: logo-5520

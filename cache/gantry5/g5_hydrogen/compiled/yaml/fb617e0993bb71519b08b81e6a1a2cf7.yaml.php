@@ -1,0 +1,92 @@
+<?php
+return [
+    '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
+    'filename' => 'C:/xampp/htdocs/zoomin/templates/g5_hydrogen/custom/config/11/index.yaml',
+    'modified' => 1525343491,
+    'data' => [
+        'name' => 11,
+        'timestamp' => 1525343491,
+        'version' => 7,
+        'preset' => [
+            'image' => 'gantry-admin://images/layouts/default.png',
+            'name' => 'default',
+            'timestamp' => 1524577640
+        ],
+        'positions' => [
+            'header' => 'Header',
+            'header-button' => 'Module Position',
+            'header-slider' => 'Module Position',
+            'position-0' => 'Module Position',
+            'breadcrumbs' => 'Breadcrumbs',
+            'footer' => 'Footer'
+        ],
+        'sections' => [
+            'header' => 'Header',
+            'navigation' => 'Navigation',
+            'main' => 'Main',
+            'footer' => 'Footer',
+            'offcanvas' => 'Offcanvas'
+        ],
+        'particles' => [
+            'position' => [
+                'position-header' => 'Header',
+                'position-position-6201' => 'Module Position',
+                'position-position-9520' => 'Module Position',
+                'position-position-1711' => 'Module Position',
+                'position-breadcrumbs' => 'Breadcrumbs',
+                'position-footer' => 'Footer'
+            ],
+            'logo' => [
+                'logo-2057' => 'Logo',
+                'logo-5901' => 'Logo / Image'
+            ],
+            'menu' => [
+                'menu-8118' => 'Menu'
+            ],
+            'social' => [
+                'social-2228' => 'Social',
+                'social-5151' => 'Social'
+            ],
+            'messages' => [
+                'system-messages-2564' => 'System Messages'
+            ],
+            'content' => [
+                'system-content-3237' => 'Page Content'
+            ],
+            'copyright' => [
+                'copyright-3091' => 'Copyright'
+            ],
+            'totop' => [
+                'totop-4227' => 'To Top'
+            ],
+            'mobile-menu' => [
+                'mobile-menu-2992' => 'Mobile-menu'
+            ]
+        ],
+        'inherit' => [
+            'default' => [
+                'header' => 'header',
+                'navigation' => 'navigation',
+                'main' => 'main',
+                'footer' => 'footer',
+                'offcanvas' => 'offcanvas',
+                'position-header' => 'position-header',
+                'position-position-6201' => 'position-position-3669',
+                'position-position-9520' => 'position-position-9913',
+                'logo-2057' => 'logo-2057',
+                'menu-8118' => 'menu-8118',
+                'position-position-1711' => 'position-position-8524',
+                'social-2228' => 'social-7337',
+                'position-breadcrumbs' => 'position-breadcrumbs',
+                'system-messages-2564' => 'system-messages-2564',
+                'system-content-3237' => 'system-content-3237',
+                'position-footer' => 'position-footer',
+                'copyright-3091' => 'copyright-3091',
+                'social-5151' => 'social-4747',
+                'totop-4227' => 'totop-3223',
+                'logo-5901' => 'logo-5520',
+                'mobile-menu-2992' => 'mobile-menu-2992'
+            ]
+        ]
+    ]
+];

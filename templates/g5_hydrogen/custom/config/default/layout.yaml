@@ -1,0 +1,139 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/home.png'
+  name: home
+  timestamp: 1524577640
+layout:
+  /header/:
+    -
+      - position-header
+    -
+      - position-position-3669
+    -
+      - position-position-9913
+  /navigation/:
+    -
+      - 'logo-2057 15'
+      - 'menu-8118 65'
+      - 'position-position-8524 10'
+      - 'social-7337 10'
+  /showcase/: {  }
+  /feature/: {  }
+  /main/:
+    -
+      - position-breadcrumbs
+    -
+      - system-messages-2564
+    -
+      - system-content-3237
+  /subfeature/: {  }
+  /footer/:
+    -
+      - position-footer
+    -
+      - 'copyright-3091 40'
+      - 'social-4747 30'
+      - 'totop-3223 30'
+    -
+      - logo-5520
+  offcanvas:
+    -
+      - mobile-menu-2992
+structure:
+  header:
+    attributes:
+      boxed: '2'
+      class: ''
+  navigation:
+    type: section
+    attributes:
+      boxed: ''
+  showcase:
+    type: section
+    attributes:
+      boxed: ''
+  feature:
+    type: section
+    attributes:
+      boxed: ''
+  main:
+    attributes:
+      boxed: ''
+  subfeature:
+    type: section
+    attributes:
+      class: flush
+      boxed: ''
+  footer:
+    attributes:
+      boxed: ''
+content:
+  position-header:
+    attributes:
+      key: header
+  position-position-3669:
+    title: 'Module Position'
+    attributes:
+      key: header-button
+  position-position-9913:
+    title: 'Module Position'
+    attributes:
+      key: header-slider
+  logo-2057:
+    attributes:
+      image: 'gantry-media://logos/ZOOMIN-LOGO.png'
+    block:
+      id: logo
+  menu-8118:
+    block:
+      id: navbar
+  position-position-8524:
+    title: 'Module Position'
+    attributes:
+      key: position-0
+    block:
+      id: flag
+  social-7337:
+    attributes:
+      css:
+        class: social
+      display: icons_only
+      items:
+        -
+          icon: 'fa fa-facebook'
+          text: ''
+          link: ''
+          name: Facebook
+    block:
+      id: social
+  position-breadcrumbs:
+    attributes:
+      key: breadcrumbs
+  position-footer:
+    attributes:
+      key: footer
+  copyright-3091:
+    attributes:
+      owner: 'Zoom In'
+  social-4747:
+    attributes:
+      css:
+        class: 'social social-footer'
+      target: _blank
+      display: both
+      items:
+        -
+          icon: 'fa fa-facebook'
+          text: ''
+          link: ''
+          name: Facebook
+  totop-3223:
+    title: 'To Top'
+    attributes:
+      icon: 'fa fa-angle-up fa-3x'
+  logo-5520:
+    title: 'Logo / Image'
+    attributes:
+      image: 'gantry-media://logos/Cofunded.png'
+      link: '0'
+      class: foot-logo
